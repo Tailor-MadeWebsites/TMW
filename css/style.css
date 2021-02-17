@@ -98,8 +98,27 @@ transform: translateY(-50%);
 	background-color: #563d7c;
 	border: 1px solid #563d7c;
 }
+.btn btn-primary btn-lg{
+	width: 100%;
+}
 
+.btn-2{
+	width: 80%;
+	border: none;
+	outline: none;
+	padding: 5px;
+	font-size: 24px;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	color: rgb(27, 166, 247);
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: .3s ease background-color;
+	color: white;
+	background-color: rgb(27, 166, 247);
 
+}
 /*Jumbotron*/
 
 .jumbotron{
@@ -191,6 +210,7 @@ footer{
 	background-color: #3f3f3f;
 	color: #d5d5d5;
 	padding-top: 2rem;
+	list-style-type: none;
 
 }
 
@@ -257,7 +277,7 @@ textarea{
 }
 
 button{
-	width: 100%;
+	width: 100%
 	border: none;
 	outline: none;
 	padding: 20px;
@@ -270,6 +290,24 @@ button{
 	margin-top: 10px;
 	transition: .3s ease background-color;
 	color: black;
+}
+
+.btn-3{
+    width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	color: rgb(27, 166, 247);
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: .3s ease background-color;
+	color: black;
+	background-color: rgb(27, 166, 247);
+
 }
 
 
@@ -369,7 +407,7 @@ button{
 /*Media Queries*/
 @media (max-width: 992px){
 	.social a {
-		font-size: 4rem;
+		font-size: 4em;
 		padding: 2rem;
 	}
 }
@@ -396,7 +434,7 @@ button{
 }
 
 .display-4{
-	font-size: 200%;
+	font-size: 50%;
 }
 
 .social a{
@@ -416,8 +454,7 @@ button{
 
 .carousel-caption h3{
     font-size: 110%;
-    font-weight: 400;
-    padding-bottom: .2rem;
+    
 }
 
 .carousel-caption .btn{
