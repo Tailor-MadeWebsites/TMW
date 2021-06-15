@@ -473,4 +473,33 @@ button{
 	font-size: 2rem;
 	padding:.7rem;
 }
+
+.btn-primary{
+	margin-left: 49px!important;
+}
+
+.btn{
+	padding: .375rem 5rem!important	;
+}
+.lead{
+	text-align: center!important;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-left: 17px;
+}
+
+.card-title{
+	text-align: center!important;
+}
+
+h2{
+	text-align: center!important;
+}
+p{
+	text-align: center!important;
+}
 }
